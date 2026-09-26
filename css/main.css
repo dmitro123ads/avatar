@@ -11,3 +11,33 @@
 .quote-author {
   font-size: 24px;
 }
+
+body {
+  margin: 0 auto;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-top: 50px;
+  gap: 36px;
+}
+
+.language {
+  background-image: url(/img/language-back.webp);
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  padding: 54px 162px;
+}
+
+.language-img {
+  width: 152px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 320px;
+  font-size: 24px;
+}
