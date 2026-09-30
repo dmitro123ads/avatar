@@ -4,30 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Avatar</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body>
-    <main>
-        <section class="quote1">
-            <h2 class="quote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
-            </h2>
-            <p class="quote-author">Джейк Саллі</p>
-            <img src="./img/quote-img.webp" alt="">
-        </section>
+<body class="bg-dark text-white">
+
+    <header class="header-section position-relative py-3">
+        <img src="../img/heder.webp" alt="Header Background" class="header-bg-img">
+
+        <div class="container position-relative z-2">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-auto">
+                    <img src="../img/logo.webp" alt="Avatar Logo" class="header-logo-img">
+                </div>
+
+                <div class="col-auto">
+                    <nav class="d-flex gap-4">
+                        <a href="#" class="nav-link text-white">Головна</a>
+                        <a href="#" class="nav-link text-white">Про нас</a>
+                        <a href="#" class="nav-link text-white">Контакти</a>
+                    </nav>
+                </div>
+
+                <div class="col-auto d-flex align-items-center gap-3">
+                    <a href="#" class="btn avatar-btn-custom py-1 px-4">
+                        Увійти
+                    </a>
+
+                    <div class="lang-switch d-flex align-items-center gap-2 fw-bold small ms-2">
+                        <span>ENG</span>
+                        <div class="form-check form-switch m-0 p-0 d-flex align-items-center">
+                            <input class="form-check-input m-0 cursor-pointer" type="checkbox" id="langSwitch" checked>
+                        </div>
+                        <span>UA</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section position-relative d-flex align-items-center py-5">
+        <img src="../img/man.webp" alt="Jake Sully Background" class="hero-bg-img">
+
+        <div class="container position-relative z-2">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-lg-5 col-md-7 text-start">
+                    <p class="fst-italic text-light opacity-75 mb-3">
+                        Oe perlltxe hu tsamsiyu!<br>
+                        Ngari hu Eywa salew tirea,<br>
+                        tokx 'Ean slu Na'viyä hapxì.<br>
+                        Säwem nìsìltsan!
+                    </p>
+
+                    <div class="my-3">
+                        <img src="../img/line.webp" alt="Divider Line" class="img-fluid divider-img">
+                    </div>
+
+                    <p class="lh-base mb-4 fs-6 text-white">
+                        Хоробрий воїне, звертаюсь до тебе!<br>
+                        Твій дух йде з Ейвою,<br>
+                        твоє тіло залишається,<br>
+                        щоб стати частиною Народу.<br>
+                        Борись разом з нами!
+                    </p>
+
+                    <a href="#" class="btn avatar-btn-custom">
+                        Приєднатися до клану
+                    </a>
+                </div>
+
+                <div class="col-auto d-flex flex-column gap-3 fs-4 text-center">
+                    <a href="#" class="text-white text-decoration-none hover-cyan"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white text-decoration-none hover-cyan"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white text-decoration-none hover-cyan"><i class="bi bi-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="quote1">
+        <h2 class="quote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+        </h2>
+        <p class="quote-author">Джейк Саллі</p>
+        <img src="../img/quote-img.webp" alt="">
+    </section>
 
 
-        <section class="quote2">
-            <h2 class="quote-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
-            </h2>
-            <p class="quote-author">Джейк Саллі</p>
-            <img src="./img/quote-img.webp" alt="">
-        </section>
+    <section class="trailer-section position-relative text-center">
+        <div class="position-relative d-inline-block w-100">
+            <img src="../img/girl.webp" alt="Neytiri Trailer" class="img-fluid w-100 d-block">
 
-        <section class="language">
-            <h2>Вчимо мову На'ві</h2>
-            <div class="language-grid">
+            <a href="#" class="btn avatar-btn-custom position-absolute top-50 start-50 translate-middle">
+                Дивитись трейлер
+            </a>
+        </div>
+    </section>
+
+    <section class="quote2">
+        <h2 class="quote-text">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+        </h2>
+        <p class="quote-author">Джейк Саллі</p>
+        <img src="../img/quote-img.webp" alt="">
+    </section>
+
+    <section class="language">
+        <h2>Вчимо мову На'ві</h2>
+        <div class="language-grid">
             <article class="card">
                 <p>Привіт</p>
                 <img src="./img/lunguage-img1.webp" alt="" class="language-img">
@@ -58,29 +148,30 @@
                 <img src="./img/lunguage-img2.webp" alt="" class="language-img">
                 <p>Nong oet!</p>
             </article>
-</div>
-        </section>
+        </div>
+    </section>
 
-        <section class="quote3">
-            <h2 class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
-            </h2>
-            <p class="quote-author">Нейтірі</p>
-            <img src="./img/quote-img.webp" alt="">
-        </section>
+    <section class="quote3">
+        <h2 class="quote-text">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+        </h2>
+        <p class="quote-author">Нейтірі</p>
+        <img src="./img/quote-img.webp" alt="">
+    </section>
     </main>
 
-    <footer >
+    <footer>
         <div class="footer-grid">
-        <div>
-        <img src="./img/logo.webp" alt="" class="footer-logo">
-    </div>
-    <div class="footer-text">
-        <p>Q&A E-mail - - - - - - - - - - - - - - - - - - - - avatartwowqa@gmail.com</p>
-        <p>Cooperation E-mail - - - - - - - - - - - - - - - avatartwowcoop@gmail.com</p>
-        <p class="rights">©2023 Avatar: The Way Of Water. All rights reserved</p>
-    </div>
-    </div>
+            <div>
+                <img src="./img/logo.webp" alt="" class="footer-logo">
+            </div>
+            <div class="footer-text">
+                <p>Q&A E-mail - - - - - - - - - - - - - - - - - - - - avatartwowqa@gmail.com</p>
+                <p>Cooperation E-mail - - - - - - - - - - - - - - - avatartwowcoop@gmail.com</p>
+                <p class="rights">©2023 Avatar: The Way Of Water. All rights reserved</p>
+            </div>
+        </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

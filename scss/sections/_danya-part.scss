@@ -1,81 +1,3 @@
-.quote1, .quote2, .quote3 {
-  text-align: center;
-  padding: 10px 260px;
-  background-color: white;
-  color: #000;
-  padding-top: 40px;
-}
-
-.quote-text {
-  font-size: 36px;
-  font-weight: lighter;
-}
-
-.quote-author {
-  font-size: 24px;
-}
-
-body {
-  margin: 0 auto;
-}
-
-.language-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-  margin-top: 50px;
-  gap: 36px;
-}
-
-.language {
-  background-image: url(../img/language-back.webp);
-  background-size: cover;
-  text-align: center;
-  margin: 0 auto;
-  padding: 54px 162px;
-}
-
-.language-img {
-  width: 152px;
-  margin: 0 auto;
-}
-
-.card {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 320px;
-  font-size: 24px;
-}
-
-footer {
-  background-image: url(../img/footer-bg.webp);
-  background-size: cover;
-}
-
-.footer-grid {
-  display: grid;
-  padding-left: 120px;
-  grid-template-columns: 1fr 2fr;
-  background-color: rgba(43, 74, 97, 0.7607843137);
-  color: white;
-  font-size: 20px;
-}
-
-.rights {
-  font-size: 14px;
-  margin: 30px;
-  margin-left: 100px;
-}
-
-.footer-logo {
-  margin: 20px;
-  padding: 40px 100px;
-  border-right: white 2px solid;
-}
-
-.footer-text {
-  margin-top: 30px;
-}
-
 body {
   background-color: #0b1d28;
   overflow-x: hidden;
@@ -96,10 +18,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 
@@ -130,10 +50,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 

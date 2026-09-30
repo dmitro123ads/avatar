@@ -1,9 +1,12 @@
 footer{
+    
     background-image: url(../img/footer-bg.webp);
     background-size: cover;
+    
 }
 .footer-grid{
     display: grid;
+    padding-left: 120px;
     grid-template-columns: 1fr 2fr;
     background-color: #2b4a61c2;
     color: white;
